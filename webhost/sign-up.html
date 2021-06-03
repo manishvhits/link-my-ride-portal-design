@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from designreset.com/cork/ltr/demo4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 05:36:18 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Link My Ride - Web Host</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <script src="assets/js/loader.js"></script>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+</head>
+<body class="bg-color">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 d-none d-md-block image-container"></div>
+
+            <div class="col-lg-6 col-md-6 form-box text-center">
+                    <div class="logo mb-4">
+                        <img src="assets/images/logo.svg" >
+                    </div>
+                    <div class="heading mb-4">
+                        <h5>Create an account</h5>
+                    </div>
+                    <form>
+                       <div class="row sa-rows">
+                           <div class="col-lg-6 mb-3">
+                               <div class="input-group">
+                                   <input type="text" name="" placeholder="Full name" class="form-control">
+                               </div>
+                           </div>
+                           <div class="col-lg-6 mb-3">
+                               <div class="input-group">
+                                   <input type="text" name="" placeholder="Club/Company name" class="form-control">
+                               </div>
+                           </div>
+                           <div class="col-md-12 mb-3">
+                               <div class="input-group">
+                                   <input type="email" name="" placeholder="Email" class="form-control">
+                               </div>
+                           </div>
+                           <div class="col-lg-6 mb-3">
+                               <div class="input-group">
+                                   <input type="password" id="typepass" name="" placeholder="Password" class="form-control">
+                               </div>
+                               <img src="assets/images/eye-close-line.png " class="safield-icon" onclick="hide_show_pass()">
+                           </div>
+                           <div class="col-lg-6 mb-3">
+                               <div class="input-group">
+                                   <input type="password" id="typepass2" name="" placeholder="Confirm password" class="form-control">
+                               </div>
+                               <img src="assets/images/eye-close-line.png " class="safield-icon " onclick="hide_show_pass2()">
+                           </div>
+                           <div class="col-md-12 mb-5">
+                               <select class="form-control">
+                                  <option>Select currency</option>
+                                </select>
+                           </div>
+
+                       </div>
+                       <div>
+                            <div class="mb-5">
+                            <a href="#" class="btn saw-100 mt-4 sr-btn">Sign up</a>
+                            
+                        </div>
+                          <p class="color-dark" style="font-size: 12px;"> Already have an account?<a href="login.html" class="pl-1 sr-deco sa-deco">Login</a></p>
+                       </div>
+                        
+                
+                    
+                 
+                    </form>
+          
+            </div>
+        </div>
+    </div>
+      <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+    <script src="assets/js/authentication/form-1.js"></script>
+     <script type="text/javascript">
+      function hide_show_pass() {
+            var temp = document.getElementById("typepass");
+            if (temp.type === "password") {
+                temp.type = "text";
+            }
+            else {
+                temp.type = "password";
+            }
+        }
+         function hide_show_pass2() {
+            var temp = document.getElementById("typepass2");
+            if (temp.type === "password") {
+                temp.type = "text";
+            }
+            else {
+                temp.type = "password";
+            }
+        }
+    </script>
+</body>
+
+<!-- Mirrored from designreset.com/cork/ltr/demo4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 May 2021 05:39:14 GMT -->
+</html>
